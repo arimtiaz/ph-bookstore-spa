@@ -1,13 +1,54 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,600;1,500&display=swap');
+
+
+/* Product Section */
 .product{
-    padding: 2px;
-    border: 1px solid #1e1c6f;
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
-};
-
+}
 .product img{
-    width: 125px;
-    height: 250px;
+    width: 286px;
+    height: 350px;
     border-radius: 8px;
     margin: 7px;
+}
+p{
+    margin: 10px;
+}
+.product-info{
+    text-align: left;
+}
+.product-name{
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
 };
+
+.btn{
+    height: 600px;
+    width: 500px;
+}
+.btn-cart{
+    width: 100%;
+    background: #7081d8;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart:hover{
+    background-color: #3d4fab;
+    transition: 0.4s;
+    color: white;
+}

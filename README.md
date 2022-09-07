@@ -1,3 +1,3 @@
 # Lucky BookStore SPA
-Book-Store that 
+Book-Store that helps you choose books
 
