@@ -37,7 +37,7 @@ p{
 }
 .btn-cart{
     width: 100%;
-    background: #7081d8;
+    background: #ffc822;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -48,7 +48,7 @@ p{
 }
 
 .btn-cart:hover{
-    background-color: #3d4fab;
-    transition: 0.4s;
+    background-color: #ff9501;
+    transition: 0.4s ease-out;
     color: white;
 }
