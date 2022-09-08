@@ -14,7 +14,9 @@ const Shop = () => {
     },[])
 
     const handleAddToCart= (product) =>{
-        console.log(product)
+        console.log(product);
+        const newCart = [...cart, product];
+        setCart(newCart)
     }
 
     return (
@@ -30,7 +32,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart cart = {cart}></Cart>
             </div>
         </div>
     );
