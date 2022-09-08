@@ -1,4 +1,16 @@
-.cart-info{
+.generate-btn{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50px;
+};
+.generate-btn:hover{
+    background-color: rgb(17, 177, 124);
+    color: white;
+}
+.cart{
     position: sticky;
     top: 0;
-}
+    text-align: left;
+    margin-left: 0px; 
+    padding-left: 0px
+};

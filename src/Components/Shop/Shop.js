@@ -18,6 +18,12 @@ const Shop = () => {
         const newCart = [...cart, product];
         setCart(newCart)
     }
+    const generateColor= (product) =>{
+        console.log(product)
+        let randomItem = product[Math.floor(Math.random()*product.length)];  
+        console.log(randomItem)
+    }
+
 
     return (
         <div className='shop-container'>
