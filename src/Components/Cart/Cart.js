@@ -16,7 +16,7 @@ const Cart = (props) => {
             <h4>Order Summary</h4>
             <p>Selected Items: {cart.length}</p>
             <p>Total: ${total}</p>
-            <button className='generate-btn' onClick={generateColor}>
+            <button className='generate-btn' onClick={() => generateColor(props)}>
                 <p>Generate Random</p>
             </button>
         </div>
