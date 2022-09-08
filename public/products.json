@@ -63,11 +63,41 @@
       {
         "author": "Unknown",
         "country": "India/Iran/Iraq/Egypt/Tajikistan",
-        "imageLink": "./images/one-thousand-one-nights",
+        "imageLink": "./images/one-thousand-one-nights.webp",
         "language": "Arabic",
         "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
         "price": 288,
         "title": "One Thousand and One Nights",
         "year": 1200
+      },
+      {
+        "author": "Emily Bront\u00eb",
+        "country": "United Kingdom",
+        "imageLink": "images/wuthering-heights.jpg",
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+        "price": 342,
+        "title": "Wuthering Heights",
+        "year": 1847
+      },
+      {
+        "author": "Albert Camus",
+        "country": "Algeria, French Empire",
+        "imageLink": "images/l-etranger.jpeg",
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+        "price": 185,
+        "title": "The Stranger",
+        "year": 1942
+      },
+      {
+        "author": "Paul Celan",
+        "country": "Romania, France",
+        "imageLink": "images/poems-paul-celan.jpg",
+        "language": "German",
+        "link": "\n",
+        "price": 320,
+        "title": "Poems",
+        "year": 1952
       }
 ]

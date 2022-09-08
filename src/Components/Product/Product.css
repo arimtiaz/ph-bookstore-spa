@@ -5,7 +5,7 @@
 /* Product Section */
 .product{
     width: 300px;
-    height: 510px;
+    height: 550px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
@@ -15,6 +15,9 @@
     height: 350px;
     border-radius: 8px;
     margin: 7px;
+}
+.product img:hover{
+    zoom: 95%;
 }
 p{
     margin: 10px;
