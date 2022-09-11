@@ -3,7 +3,6 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart, generateColor} = props;
-
     
     console.log(cart);
     let total = 0;
